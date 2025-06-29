@@ -1,3 +1,6 @@
+# Task Manager Program
+# This program allows users to add, update, delete, and view tasks with their associated times.
+# It uses a dictionary to store tasks and their times, providing a simple command-line interface for task management.
 
 def task():
     tasks={}
