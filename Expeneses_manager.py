@@ -6,17 +6,17 @@ def rent():
      costs={} #empty dic which store all expensess
      dates=[] #empty list ,store dates
      total_cost=0  # total cost variable, store total expended cost
-     print("---Monthly Expend Money Manager---🖥️")
-     expenses=input("please Enter expenses name:")
-     cost=float(input(f"Enter {expenses} cost :")) 
-     date=input("Enter Date :")
-     costs[expenses]=cost
-     dates=date
-     print(f"\ndate:{date}")
-     print(f"cots of {expenses} is {cost} ")
+#      print("---Monthly Expend Money Manager---🖥️")
+#      expenses=input("please Enter expenses name:")
+#      cost=float(input(f"Enter {expenses} cost :")) 
+#      date=input("Enter Date :")
+#      costs[expenses]=cost
+#      dates=date
+#      print(f"\ndate:{date}")
+#      print(f"cots of {expenses} is {cost} ")
      while True:
           print("---Monthly Expend Money Manager---🖥️")
-          choice=input("choose option:\n1.Add Expend cost\n2.Change Expended money\n3.View all spanded money\n4.Calculate Total Expenses\n5.Clear all Expenses\n6.Exit\n")
+          choice=input("1.Add Expend cost\n2.Change Expended money\n3.View all spanded money\n4.Calculate Total Expenses\n5.Clear all Expenses\n6.Exit\nchoose option:")
           if choice=='1':
                  expenses=input("please Enter expenses name:")
                  cost=float(input(f"Enter {expenses} cost :")) 
@@ -36,8 +36,8 @@ def rent():
                       break
           elif choice=='3':
                 print("---All Expended money list---")
-                for expenses,cost in costs.items():
-                      print(f"{expenses}:{cost}")
+                for expenses,cost in costs.items() :
+                   print(f"Date:{dates}: {expenses}:{cost}")
           elif choice=='4':
                 total_cost=sum(costs.values()) # to calculate the sum of total cost 
                 print(f"Total Expend money {total_cost}")
@@ -49,7 +49,7 @@ def rent():
                       print(f"For each person ={per_person}")
                 elif distribute=='no':
                       print("OK Thanku")
-                      break
+                      
                 else :
                    print("Invalid choice")
           elif choice=='5':
@@ -59,4 +59,4 @@ def rent():
                 print("----End of program----")
                 break
         
-rent()
+rent() 
