@@ -60,6 +60,7 @@
 
 # Other way to manage expenses
 
+# Monthly Expend Money Manager
 def rent():
     # Store expenses as list of dictionaries
     costs = []  
