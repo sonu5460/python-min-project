@@ -1,0 +1,32 @@
+{
+  "620336": {
+    "name": "sonu",
+    "acc_no": "620336",
+    "pin": "1415",
+    "balance": 4500.0,
+    "history": [
+      "Deposited \u20b95000.0",
+      "Withdrew \u20b91000.0"
+    ]
+  },
+  "620335": {
+    "name": "sonu Ansari",
+    "acc_no": "620335",
+    "pin": "1513",
+    "balance": 4500.0,
+    "history": [
+      "Deposited \u20b95000.0",
+      "Withdrew \u20b91000.0"
+    ]
+  },
+  "324312": {
+    "name": "Aman",
+    "acc_no": "324312",
+    "pin": "1314",
+    "balance": 9500.0,
+    "history": [
+      "Deposited \u20b910000.0",
+      "Withdrew \u20b91000.0"
+    ]
+  }
+}
